@@ -3,6 +3,6 @@
     public enum EnumTaskStatus
     { 
         Pendente,
-        Finalizada
+        Concluida
     }
 }

@@ -9,9 +9,7 @@ namespace ListApi.context
         { 
             
         }
-
         public DbSet<Task_m> Tasks_Db { get; set; }
 
-        
     }
 }

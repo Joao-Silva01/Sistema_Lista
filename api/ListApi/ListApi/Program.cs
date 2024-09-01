@@ -1,6 +1,5 @@
 using ListApi.context;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,6 +25,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors( option =>
+{
+    option.WithOrigins("http://localhost:3000");
+    option.AllowAnyMethod();
+    option.AllowAnyHeader();
+}
+    );
 
 app.UseHttpsRedirection();
 

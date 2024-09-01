@@ -1,0 +1,117 @@
+.task-container{
+  width: 100%;
+  max-width: 1400px;
+  padding: 5 10px;
+  margin:  3px auto;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  text-align: left;
+}
+
+.task-container header{
+  display: flex;
+  align-items: left;
+}
+
+.class-nova-tarefa{
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  background-color: #1c7030;
+  color: white;
+  margin-left: 2px;
+  font-size: 20px;
+  transition: border-color 0.5s;
+}
+
+.class-nova-tarefa:hover{
+  background-color: #135b24;
+}
+
+.task-container header input{
+  margin-left: 9.5cm;
+  margin-top: 10px;
+  height: 35px;
+  width: 300px;
+  border-color: black;
+  border-radius: 9px;
+  text-align: center;
+}
+
+.task-container tbody button{
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  margin-right: -30px;
+  margin-left: -50px;
+  font-size: 20px;
+  transition: border-color 0.5s;
+  text-align: center;
+}
+
+.task-container tbody td{
+  font-size: 17.5px;
+  
+}
+
+.task-container thead td{
+  font-size: 25px;
+}
+
+.title-container h3{
+  font-size: 100px;
+  margin: 5px;
+  text-align: center;
+}
+
+.task-border {
+  margin-top: 10px;
+  border: 3px solid black;
+}
+
+tr{
+  border: 1px solid black;
+}
+
+.table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.table td{
+  word-wrap: break-word;
+}
+
+.table td:nth-child(3) {
+  text-align: right;
+}
+
+.button-container .btn {
+  margin-left: 180px;
+}
+
+.status-pendente {
+  color: #ffbf0fa4 !important;
+  font-weight: bold;
+}
+
+.status-concluida {
+  color: green !important; 
+  font-weight: bold;
+}
+
+.modalremove{
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  align-self: center;
+}
+
+.modaledit{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  align-self: center;
+}
+
